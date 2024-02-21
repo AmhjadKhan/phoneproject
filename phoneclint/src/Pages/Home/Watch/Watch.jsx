@@ -19,7 +19,9 @@ const Watch = () => {
     const pagination = (pageNumber) => setCurrentPage(pageNumber)
   return (
     <div>
-    <h1 className='text-center max-auto text-5xl'>This is category section</h1>
+      <h1 className="text-center font-extrabold max-auto text-[#5c1d65] text-4xl mt-4 mb-5">
+        ULTRA WATCH
+      </h1>
     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
       {
         currentItems.map(iphone => <FatchCard key={iphone.id} iphone={iphone} />)
