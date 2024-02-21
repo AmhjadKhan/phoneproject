@@ -1,7 +1,7 @@
 // import { Link }  from "react-router-dom"
 import React from "react";
 const FatchCard = ({ iphone }) => {
-  console.log(iphone);
+  // console.log(iphone);
 
   return (
     <div>
