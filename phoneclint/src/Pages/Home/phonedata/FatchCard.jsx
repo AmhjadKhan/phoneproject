@@ -1,4 +1,4 @@
-// import { Link }  from "react-router-dom"
+
 import React from "react";
 const FatchCard = ({ iphone }) => {
   // console.log(iphone);
@@ -13,8 +13,8 @@ const FatchCard = ({ iphone }) => {
           <h2 className="card-title">{iphone.brand}</h2>
           <details>
             <p className="font-bold">
-              Apple ipsum dolor, sit amet consectetur adipisicing elit. Ea vitae
-              tempore cupiditate quidem tenetur animi.
+              This is catekd ipsum dolor, sit amet consectetur adipisicing elit.
+              Ea vitae tempore cupiditate quidem tenetur animi.
             </p>
           </details>
           <h2 className="card-title">{iphone.phone_name}</h2>
@@ -24,7 +24,7 @@ const FatchCard = ({ iphone }) => {
               className="btn bg-[#ee4545]"
               onClick={() => document.getElementById("my_modal_5").showModal()}
             >
-              ADD TO CARD
+              SEE MORE
             </button>
             <dialog
               id="my_modal_5"
@@ -32,13 +32,11 @@ const FatchCard = ({ iphone }) => {
             >
               <div className="modal-box">
                 <h3 className="font-bold text-4xl">💕THANK YOU ❤</h3>
-                <p className="py-4 text-xl">
-                 Please Log in 
-                </p>
+                <p className="py-4 text-xl font-bold bg-slate-400 mt-7">Please Log in</p>
                 <div className="modal-action">
                   <form method="dialog">
                     {/* if there is a button in form, it will close the modal */}
-                    <button className="btn">Close</button>
+                    <button className="btn bg-[#d9842e]">Close</button>
                   </form>
                 </div>
               </div>
@@ -49,5 +47,5 @@ const FatchCard = ({ iphone }) => {
     </div>
   );
 };
-
+ 
 export default FatchCard;

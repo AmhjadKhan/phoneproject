@@ -1,0 +1,17 @@
+.service-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .service-heading {
+    color: blue;
+  }
+  
+  .service-item {
+    background-color: rgb(155, 243, 243);
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  

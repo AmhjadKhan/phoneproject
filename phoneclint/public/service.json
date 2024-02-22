@@ -1,0 +1,37 @@
+{
+    "services": [
+      {
+        "service_name": "DUBAI",
+        "service_id": 1,
+        "service_lorem":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat  possimus hic.",
+        "service_number": "1234567890",
+        "service_email": "service1@example.com",
+        "shop_address": "123 Main Street, City, Country"
+      },
+      {
+        "service_name": "SAUDI- ARABIA",
+        "service_id": 2,
+        "service_lorem":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat possimus hic.",
+        "service_number": "2345678901",
+        "service_email": "service2@example.com",
+        "shop_address": "456 Elm Street, City, Country"
+      },
+      {
+        "service_name": "OMAN",
+        "service_id": 3,
+        "service_lorem":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat possimus hic.",
+        "service_number": "3456789012",
+        "service_email": "service3@example.com",
+        "shop_address": "789 Oak Street, City, Country"
+      },
+      {
+        "service_name": "QATAR",
+        "service_id": 4,
+        "service_lorem":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat possimus hic.",
+        "service_number": "4567890123",
+        "service_email": "service4@example.com",
+        "shop_address": "012 Pine Street, City, Country"
+      }
+    ]
+  }
+  
