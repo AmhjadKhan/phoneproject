@@ -1,15 +1,15 @@
-import React from 'react'
+import logo from '../../assets/logo.jpg'
 
 const Footer = () => {
   return (
     <div className='mt-4'>
       <footer className="footer p-10 bg-neutral text-neutral-content">
   <nav>
-    <h6 className="footer-title">Services</h6> 
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+  <div className="grid">
+           <img src={logo} alt="" className="h-12 w-12 rounded-full ml-7" style={{border: '2px solid gray'}} />
+           <p className="font-bold text-2xl">Mobile SHOP</p>
+           </div>
+           <p>Dolor sit amet, consectetur adipisicing elit. Itaque, voluptatibus.</p>
   </nav> 
   <nav>
     <h6 className="footer-title">Company</h6> 

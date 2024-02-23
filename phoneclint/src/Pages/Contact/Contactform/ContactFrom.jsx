@@ -5,7 +5,7 @@ const ContactForm = () => {
     <div className="mt-10">
       <div className="card w-full bg-[#aee9a6]">
         <form className="card-body">
-          <div className="flex gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 ">
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-bold">Name</span>
@@ -29,7 +29,7 @@ const ContactForm = () => {
               />
             </div>
           </div>
-          <div className="flex gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-bold">Email</span>

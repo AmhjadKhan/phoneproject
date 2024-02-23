@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
         <div className="grid">
-           <img src={logo} alt="" className="h-12 w-12 rounded-full" style={{border: '2px solid gray'}} />
-           <p className="font-bold">OPPO</p>
+           <img src={logo} alt="" className="h-12 w-12 rounded-full ml-7" style={{border: '2px solid gray'}} />
+           <p className="font-bold text-2xl">Mobile SHOP</p>
            </div>
         </div>
         <div className="hidden md:flex">
@@ -60,10 +60,10 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden mt-2">
-          <a href="#" className="block text-white px-3 py-2 hover:bg-gray-700">Home</a>
-          <a href="#" className="block text-white px-3 py-2 hover:bg-gray-700">About</a>
-          <a href="#" className="block text-white px-3 py-2 hover:bg-gray-700">Services</a>
-          <a href="#" className="block text-white px-3 py-2 hover:bg-gray-700">Contact</a>
+          <a href="/" className="block text-white px-3 py-2 hover:bg-gray-700">Home</a>
+          <a href="/about" className="block text-white px-3 py-2 hover:bg-gray-700">About</a>
+          <a href="/service" className="block text-white px-3 py-2 hover:bg-gray-700">Services</a>
+          <a href="/contact" className="block text-white px-3 py-2 hover:bg-gray-700">Contact</a>
         </div>
       )}
     </nav>
